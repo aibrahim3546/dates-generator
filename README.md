@@ -1,4 +1,4 @@
-# Dates Generator
+# dates-generator
 
 A lightweight JavaScript date library to generate dates for a specific month and year.
 
