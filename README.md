@@ -18,7 +18,7 @@ Using yarn:
 ---
 
 ## How to use
-### Using `dateGenerator(body)`:
+### Using `datesGenerator(body)`
 
 ```
 const { datesGenerator } = require('dates-generator');
