@@ -60,11 +60,11 @@ console.log(dates);
   ]
 /*
 
-/*
-  Use previousMonth and previousYear to get the previous month date
-  e.g.: datesGenerator({ year: previousYear, month: previousMonth })
-*/
+```
 
+usage of `previousMonth / nextMonth` and `previousYear / nextYear` to get the previous/next month date
+```
+datesGenerator({ year: previousYear, month: previousMonth })
 ```
 
 Request Object
