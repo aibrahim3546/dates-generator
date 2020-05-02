@@ -9,11 +9,11 @@ This library is suitable to use to make a fully customizable date picker and cal
 ## Installation
 Using npm:
 
-`npm install <github-link> --save`
+`npm install https://github.com/aibrahim3546/dates-generator.git --save`
 
 Using yarn:
 
-`yarn add <github-link>`
+`yarn add https://github.com/aibrahim3546/dates-generator.git`
 
 ---
 
