@@ -11,11 +11,15 @@ This library is suitable to use to make a fully customizable date picker and cal
 ## Installation
 Using npm:
 
-`npm install dates-generator --save`
+```
+npm install dates-generator --save
+```
 
 Using yarn:
 
-`yarn add dates-generator`
+```
+yarn add dates-generator`
+```
 
 ---
 
@@ -65,9 +69,18 @@ console.log(dates);
 ```
 
 usage of `previousMonth / nextMonth` and `previousYear / nextYear` to get the previous/next month date
+
 ```
 datesGenerator({ year: previousYear, month: previousMonth })
 ```
+
+The `jsDate` is property you can use to format the date using `new Date()`, example:
+
+```
+  const formatDate = new Date(jsDate).toString()
+```
+
+You may also use [date-and-time](https://github.com/knowledgecode/date-and-time) or [momentjs](https://momentjs.com/) to format the date using the `jsDate`
 
 Request Object
 
@@ -120,5 +133,12 @@ Property | Type | Value
 from | number | e.g 2015
 to | number | e.g 2020
 
+---
+
 ## Contributing
-Contributions are always open. There are still a lot more to do with this library, such as writing test and implementing type checking to the code.
+Contributions are always open. There are still a lot more to improve with this library.
+
+such as:
+- writing test cases
+- implementing type checking
+- error handling
