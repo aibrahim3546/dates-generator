@@ -1,6 +1,6 @@
 {
   "name": "dates-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple javascipt dates generator functions",
   "main": "index.js",
   "dependencies": {},
@@ -14,12 +14,14 @@
   },
   "keywords": [
     "date",
-    "picker",
+    "date-picker",
     "calendar",
-    "dates",
-    "dates",
-    "generator",
-    "generator"
+    "date-generator",
+    "react-date-picker",
+    "react",
+    "react-native",
+    "angular",
+    "vue"
   ],
   "author": "Ahmad Ibrahim",
   "license": "MIT",
