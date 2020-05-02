@@ -1,5 +1,7 @@
 # dates-generator
 
+[![npm](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/70px-Npm-logo.svg.png)](https://www.npmjs.com/package/dates-generator?activeTab=versions)
+
 A lightweight JavaScript date library to generate dates for a specific month and year.
 
 This library is suitable to use to make a fully customizable date picker and calendar UI in javascript. (**React**, **Vue**, **Angular**, **React Native**, etc...)
