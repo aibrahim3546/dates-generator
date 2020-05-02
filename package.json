@@ -1,5 +1,30 @@
 {
-  "devDependencies": {
-    "eslint": "^6.8.0"
-  }
+  "name": "dates-generator",
+  "version": "1.0.0",
+  "description": "A simple javascipt dates generator functions",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aibrahim3546/dates-generator.git"
+  },
+  "keywords": [
+    "date",
+    "picker",
+    "calendar",
+    "dates",
+    "dates",
+    "generator",
+    "generator"
+  ],
+  "author": "Ahmad Ibrahim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aibrahim3546/dates-generator/issues"
+  },
+  "homepage": "https://github.com/aibrahim3546/dates-generator#readme"
 }
