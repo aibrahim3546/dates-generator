@@ -51,13 +51,13 @@ console.log(dates);
    - month 0 = jan - 11 = dec
   [
     [
-      { date: 26, month: 3, year: 2020, jsDate: '26/04/2020, 00:00:00' },
-      { date: 27, month: 3, year: 2020, jsDate: '27/04/2020, 00:00:00' },
-      { date: 28, month: 3, year: 2020, jsDate: '28/04/2020, 00:00:00' },
-      { date: 29, month: 3, year: 2020, jsDate: '29/04/2020, 00:00:00' },
-      { date: 30, month: 3, year: 2020, jsDate: '30/04/2020, 00:00:00' },
-      { date: 1, month: 4, year: 2020, jsDate: '01/05/2020, 00:00:00' },
-      { date: 2, month: 4, year: 2020, jsDate: '02/05/2020, 00:00:00' }
+      { date: 26, month: 3, year: 2020 },
+      { date: 27, month: 3, year: 2020 },
+      { date: 28, month: 3, year: 2020 },
+      { date: 29, month: 3, year: 2020 },
+      { date: 30, month: 3, year: 2020 },
+      { date: 1, month: 4, year: 2020 },
+      { date: 2, month: 4, year: 2020 }
     ],
     [...]
     [...]
@@ -74,13 +74,13 @@ usage of `previousMonth / nextMonth` and `previousYear / nextYear` to get the pr
 datesGenerator({ year: previousYear, month: previousMonth })
 ```
 
-The `jsDate` is property you can use to format the date using `new Date()`, example:
+You can use all three property (`date`, `month`, `year`) to format the date using `new Date()`, example:
 
 ```
-  const formatDate = new Date(jsDate).toString()
+  const formatDate = new Date(year, month, date).toString()
 ```
 
-You may also use [date-and-time](https://github.com/knowledgecode/date-and-time) or [momentjs](https://momentjs.com/) to format the date using the `jsDate`
+You may also use [date-and-time](https://github.com/knowledgecode/date-and-time) or [momentjs](https://momentjs.com/) to format the date using the `date`, `month`, `year`.
 
 Request Object
 
