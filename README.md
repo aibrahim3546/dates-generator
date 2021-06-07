@@ -18,7 +18,7 @@ npm install dates-generator --save
 Using yarn:
 
 ```
-yarn add dates-generator`
+yarn add dates-generator
 ```
 
 ---
