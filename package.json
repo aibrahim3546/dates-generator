@@ -1,6 +1,6 @@
 {
   "name": "@aibrahim3546/dates-generator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple javascipt dates generator functions",
   "main": "index.js",
   "dependencies": {},
